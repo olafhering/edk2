@@ -51,7 +51,6 @@ LIBRARIES = Common
 VFRAUTOGEN = VfrCompile/VfrLexer.h
 # NON_BUILDABLE_APPLICATIONS = GenBootSector BootSectImage
 APPLICATIONS = \
-  BrotliCompress \
   VfrCompile \
   GnuGenBootSector \
   BootSectImage \
