@@ -172,7 +172,7 @@ QemuLoadKernelImage (
   EFI_SIMPLE_FILE_SYSTEM_PROTOCOL  *FsProtocol;
   EFI_FILE_HANDLE                  Root;
   UINTN                            CommandLineSize;
-  CHAR8                            *CommandLine;
+  CHAR8                            *CommandLine = NULL;
   UINTN                            InitrdSize;
 
   //
