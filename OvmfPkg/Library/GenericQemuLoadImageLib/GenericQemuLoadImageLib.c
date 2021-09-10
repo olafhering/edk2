@@ -80,7 +80,7 @@ QemuLoadKernelImage (
   EFI_HANDLE                KernelImageHandle;
   EFI_LOADED_IMAGE_PROTOCOL *KernelLoadedImage;
   UINTN                     CommandLineSize;
-  CHAR8                     *CommandLine;
+  CHAR8                     *CommandLine = NULL;
   UINTN                     InitrdSize;
 
   //
