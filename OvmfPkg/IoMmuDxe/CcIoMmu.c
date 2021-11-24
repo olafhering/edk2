@@ -89,6 +89,7 @@ IoMmuMap (
   COMMON_BUFFER_HEADER  *CommonBufferHeader;
   VOID                  *DecryptionSource;
 
+  Status = Operation >= 0 && Operation < ARRAY_SIZE (mBusMasterOperationName);
   DEBUG ((
     DEBUG_VERBOSE,
     "%a: Operation=%a Host=0x%p Bytes=0x%Lx\n",
