@@ -91,9 +91,9 @@ ShellCommandRunDisconnect (
   CONST CHAR16  *Param1;
   CONST CHAR16  *Param2;
   CONST CHAR16  *Param3;
-  EFI_HANDLE    Handle1;
-  EFI_HANDLE    Handle2;
-  EFI_HANDLE    Handle3;
+  EFI_HANDLE    Handle1 = NULL;
+  EFI_HANDLE    Handle2 = NULL;
+  EFI_HANDLE    Handle3 = NULL;
   UINT64        Intermediate1;
   UINT64        Intermediate2;
   UINT64        Intermediate3;
