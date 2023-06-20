@@ -524,7 +524,7 @@ SetOrClearSharedBit (
 {
   UINT64                        AddressEncMask;
   UINT64                        TdStatus;
-  EFI_STATUS                    Status;
+  EFI_STATUS                    Status = 0;
   EDKII_MEMORY_ACCEPT_PROTOCOL  *MemoryAcceptProtocol;
 
   AddressEncMask = GetMemEncryptionAddressMask ();
