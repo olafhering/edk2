@@ -202,7 +202,7 @@ AmdSevDxeEntryPoint (
   EFI_GCD_MEMORY_SPACE_DESCRIPTOR           *AllDescMap;
   UINTN                                     NumEntries;
   UINTN                                     Index;
-  CONFIDENTIAL_COMPUTING_SNP_BLOB_LOCATION  *SnpBootDxeTable;
+  CONFIDENTIAL_COMPUTING_SNP_BLOB_LOCATION  *SnpBootDxeTable = NULL;
 
   //
   // Do nothing when SEV is not enabled
