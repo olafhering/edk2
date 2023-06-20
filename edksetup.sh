@@ -105,7 +105,7 @@ SetupEnv()
 
 SetupPython3()
 {
-  export PYTHON_COMMAND=python3
+  export PYTHON_COMMAND=${OVMF_PYTHON_COMMAND:-python3}
 }
 
 SourceEnv()
